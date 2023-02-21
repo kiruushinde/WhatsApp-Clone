@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./Images/whatsapp.png" type="image/x-icon">
+    <link rel="stylesheet" href="main.css">
+    <title>WhatsApp </title>
+
+    <!-- <style>
+        .btn::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            transform: translateX(-100%);
+            transition: all 1s;
+        }
+        
+        .btn:hover {
+            color: white;
+            cursor: pointer;
+        }
+        
+        .btn:hover::before {
+            cursor: pointer;
+            transform: translateX(0%);
+            z-index: -1;
+        }
+    </style> -->
+</head>
+
+<body class="bg-[#FCF5EB] overflow-x-hidden">
+    <!-- Navbar -->
+    <nav class="w-[100%] px-10 overflow-hidden mx-auto sticky top-0 z-10 opacity-90 p-3 shadow-md bg-[#fcf5eb] mt-5">
+        <div class="flex flex-row justify-between items-center">
+            <div>
+                <!-- logo -->
+                <img src="./Images/logo.png" alt="" class="w-[130px] cursor-pointer">
+            </div>
+            <div class="relative hidden lg:block">
+                <!-- list items -->
+                <ul class="flex space-x-10 text-base ml-28">
+                    <li class="cursor-pointer group">
+                        <div class="flex items-center space-x-2">
+                            <span class="font-[500]">
+                                Features
+                            </span>
+                            <svg class="fill-current h-4 w-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"/> </svg>
+                        </div>
+                        <div class="group-hover:border-b-[2.3px] border-green-500 h-1 transition-all duration-100"></div>
+                    </li>
+                    <li class="cursor-pointer font-[500] group">Privacy
+                        <div class="group-hover:border-b-[2.3px] border-green-500 h-1 transition-all duration-100"></div>
+                    </li>
+                    <li class="cursor-pointer font-[500] group">Help Center
+                        <div class="group-hover:border-b-[2.3px] border-green-500 h-1 transition-all duration-100"></div>
+                    </li>
+                    <li class="cursor-pointer font-[500] group">Blog
+                        <div class="group-hover:border-b-[2.3px] border-green-500 h-1 transition-all duration-100"></div>
+                    </li>
+                </ul>
+            </div>
+            <div class="flex space-x-10 relative items-center">
+                <!-- buttons -->
+                <button class="font-[500] hidden lg:block">WhatsApp Web</button>
+                <button class=" bg-green-500 rounded-full flex items-center justify-between px-5 lg:px-7 py-4 border  border-black lg:space-x-3">
+                    <span class="font-[500] hidden lg:block">
+                        Download
+                    </span>
+                    <span>
+                        <img src="./Images/download.png" alt="" class="w-4">
+                    </span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- hero section -->
+    <section class="w-[95%] max-w-[1500px] -mt-8 relative mx-auto">
+        <div class="">
+            <img src="./Images/herobg.png" alt="" class="rounded-3xl mt-8 hidden md:block" loading="lazy">
+            <img src="./Images/herobgnew.jpg" alt="" class="rounded-3xl mt-8 block md:hidden w-fit" loading="lazy">
+
+            <!-- left part -->
+            <div class="absolute top-[50%] md:top-[30%] sm:flex sm:items-center sm:justify-between self-start flex-col space-y-6">
+                <h1 class="text-white hidden md:block text-7xl font-medium">Message <br> privately</h1>
+                <h1 class="text-white pl-3 text-5xl font-medium md:hidden block">Message privately</h1>
+                <p class="text-white w-full sm:w-[50%] font-medium pl-3 text-[16px]">Simple, reliable, private messaging and calling for free*, available all over the world.</p>
+                <button class="bg-green-400 rounded-full flex items-center self-center pl-3 md:-ml-32 px-8 py-4 space-x-3">
+                    <span>
+                        Download
+                    </span>
+                    <span>
+                        <img src="./Images/download.png" alt="" class="w-4">
+                    </span>
+                </button>
+            </div>
+
+            <!-- right part -->
+            <div class="absolute top-[30%] sm:top-[10%] right-[5%] sm:right-[10%]">
+                <img src="./Images/goodmorning.png" alt="" class="">
+                <img src="./Images/lovereaction.png" alt="" class="w-[350px] -mt-5 ml-2">
+                <img src="./Images/coffee.png" alt="" class="-mt-3 -ml-3">
+                <img src="./Images/voicemsg.png" alt="" class="-mt-1 hidden lg:block">
+                <img src="./Images/girls.png" alt="" class="mt-2 hidden lg:block">
+                <img src="./Images/cryface.png" alt="" class="-mt-5 hidden lg:block">
+                <img src="./Images/reply1.png" alt="" class="w-[450px] hidden lg:block">
+            </div>
+            <p class="flex justify-end text-xs mt-2">*Data charges may apply. Contact your provider for details.</p>
+        </div>
+    </section>
+
+    <!-- chats1 -->
+    <section class="p-10">
+        <img src="./Images/chats1.png" alt="" loading="lazy" class="">
+    </section>
+
+
+    <!-- text heading message 1 -->
+    <section class="w-[95%] max-w-[1500px] relative">
+        <h2 class="text-xl md:text-5xl text-center mx-auto text-black md:w-[70%] w-[85%] font-medium leading-7 md:leading-[50px] pb-10">
+            With private messaging and calling, you can be yourself, speak freely and feel close to the most important people in your life no matter where they are.
+        </h2>
+    </section>
+
+    <!-- chats2 -->
+    <section class="p-10">
+        <img src="./Images/chats2.png" alt="" loading="lazy">
+    </section>
+
+    <!-- features1 -->
+    <section class="w-full max-w-[1500px] relative mt-10 pb-10">
+        <div class="flex flex-col md:flex-row justify-evenly items-center">
+            <!-- left part -->
+            <div class="flex space-y-6 flex-col px-8 md:px-0 w-fit">
+                <h2 class="text-3xl md:text-6xl w-full md:w-[450px] font-[400]">Never miss a moment with voice and video calls</h2>
+                <p class="text-base md:text-lg w-[470px]">From a group call to classmates to a quick call with mom, feel like you’re in the same room with voice and video calls.</p>
+                <div class="cursor-pointer group flex self-start items-center flex-col">
+                    <div class="flex items-center justify-center space-x-1">
+                        <span>
+                                Learn More
+                            </span>
+                        <span>
+
+                                <img src="./Images/right arrow.png" alt="" class="w-3" loading="lazy">
+                            </span>
+                    </div>
+                    <div class="border-b-[2.3px] border-green-500 w-20 -ml-3 h-1"></div>
+                </div>
+            </div>
+            <!-- right part -->
+            <div>
+                <img src="./Images/fetures1.png" alt="" loading="lazy">
+            </div>
+        </div>
+    </section>
+
+
+    <!-- features2 -->
+    <section class="w-full bg-[#111B21] max-w-[1500px] relative mt-10 pt-16 pb-12">
+        <div class="flex flex-col-reverse md:flex-row justify-evenly items-center p-10 md:p-0">
+
+            <!-- left part -->
+            <div class="left-7">
+                <img src="./Images/features2.png" alt="" loading="lazy" class="scale-75 md:scale-100">
+            </div>
+
+            <!-- right part -->
+            <div class="flex space-y-6 flex-col relative md:-left-10">
+                <h2 class="text-4xl md:text-6xl text-white font-[500]">
+                    Speak
+                    <br>
+                    <span class="text-green-500">freely</span>
+                </h2>
+                <p class="md:text-lg text-lg w-[460px] text-white">With end-to-end encryption, your personal messages and calls are secured. Only you and the person you're talking to can read or listen to them, and nobody in between, not even WhatsApp.</p>
+                <div class="cursor-pointer group flex self-start items-center flex-col">
+                    <div class="flex items-center text-white justify-center space-x-2">
+                        <span>
+                                Learn More
+                        </span>
+                        <span>
+                                <img src="./Images/right arrow.png" alt="" class="w-3" loading="lazy">
+                        </span>
+                    </div>
+                    <div class="border-b-[2.3px] border-green-500 w-20 -ml-4 h-1"></div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- features 3 -->
+    <section class="w-full max-w-[1500px] relative mt-24 pb-10">
+        <div class="flex flex-col lg:flex-row justify-evenly lg:items-center self-start">
+            <!-- left part -->
+            <div class="flex space-y-6 flex-col lg:items-center lg:justify-center px-10">
+                <h2 class="text-4xl lg:text-6xl w-full font-[400]">Keep in touch <br> with your groups</h2>
+                <p class="text-lg w-full md:w-[450px]">Whether it's planning an outing with friends or simply staying on top of your family chats, group conversations should feel effortless.</p>
+                <div class="cursor-pointer group flex self-start items-center flex-col">
+                    <div class="flex items-center justify-center space-x-1">
+                        <span>
+                                Learn More
+                            </span>
+                        <span>
+
+                                <img src="./Images/right arrow.png" alt="" class="w-3" loading="lazy">
+                            </span>
+                    </div>
+                    <div class="border-b-[2.3px] border-green-500 w-20 -ml-3 h-1"></div>
+                </div>
+            </div>
+            <!-- right part -->
+            <div class="relative">
+                <img src="./Images/features3bg.png" alt="" class="absolute scale-75 lg:scale-100 -z-10 right-[15%] lg:right-[35%]" loading="lazy">
+                <img src="./Images/features3.png" alt="" class="relative md:scale-100 scale-75 mt-24 lg:mt-20 left-10 lg:-left-24" loading="lazy">
+            </div>
+        </div>
+    </section>
+
+    <!-- features 4 -->
+    <section class="w-full max-w-[1500px] relative mt-10 lg:mt-36 lg:pb-10">
+        <div class="flex flex-col-reverse lg:flex-row justify-evenly items-center">
+            <!-- left part -->
+            <div class="relative">
+                <img src="./Images/features4bg.png" alt="" class="absolute z-30 top-[28%] scale-75 lg:scale-100" loading="lazy">
+                <img src="./Images/features4.png" alt="" loading="lazy" class="scale-75 lg:scale-100 z-20">
+            </div>
+
+            <!-- right part -->
+            <div class="flex space-y-6 flex-col px-10 md:px-0">
+                <h2 class="text-6xl w-full font-[450]">Say what <br> you feel</h2>
+                <p class="text-lg leading-5 font-[300] w-full md:w-[450px]">Express yourself without words. Use stickers and GIFs or share everyday moments on Status. Record a voice message for a quick hello or a longer story.</p>
+                <div class="cursor-pointer group flex self-start items-center flex-col">
+                    <div class="flex items-center justify-center space-x-1">
+                        <span>
+                                Learn More
+                            </span>
+                        <span>
+
+                                <img src="./Images/right arrow.png" alt="" class="w-3" loading="lazy">
+                            </span>
+                    </div>
+                    <div class="border-b-[2.3px] border-green-500 w-20 -ml-3 h-1"></div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- features 5 -->
+    <section class="w-full max-w-[1500px] relative mt-2 lg:mt-24 pb-20">
+        <div class="flex flex-col lg:flex-row justify-evenly items-center">
+            <!-- left part -->
+            <div class="flex space-y-6 flex-col px-5 lg:px-0">
+                <h2 class="text-4xl lg:text-6xl w-[80%] lg:w-[500px] font-[450]">Transform your business</h2>
+                <p class="text-base lg:text-lg w-full lg:w-[450px]">WhatsApp Business helps you reach your customers globally to deliver compelling experiences at scale. Showcase your products and services, increase sales, and build relationships all with WhatsApp.</p>
+                <div class="cursor-pointer group flex self-start items-center flex-col">
+                    <div class="flex items-center justify-center space-x-1">
+                        <span>
+                                Learn More
+                            </span>
+                        <span>
+
+                                <img src="./Images/right arrow.png" alt="" class="w-3" loading="lazy">
+                            </span>
+                    </div>
+                    <div class="border-b-[2.3px] border-green-500 w-20 -ml-3 h-1"></div>
+                </div>
+            </div>
+            <!-- right part -->
+            <div class="relative">
+                <img src="./Images/featrue5.png" alt="" class="relative lg:mt-20 left-0 lg:-left-24" loading="lazy">
+            </div>
+        </div>
+    </section>
+
+    <!-- new section -->
+    <section class="bg-[#E6FFDA] max-w-[1500px] w-[100%] pb-40 rounded-b-[32px] relative overflow-x-hidden">
+        <!-- left part -->
+        <div class="">
+            <div class="flex flex-col pt-3">
+                <h2 class="text-5xl lg:text-6xl pt-16 pl-[80px] lg:pl-[200px]">Connect with us</h2>
+                <div class="pb-20 lg:pl-[200px] mt-[400px] lg:mt-[300px]">
+                    <button class="opacity-20 w-20"><img src="https://img.icons8.com/external-others-inmotus-design/67/null/external-Left-virtual-keyboard-others-inmotus-design-6.png" class="w-12"/></button>
+                    <button class="opacity-80"><img src="https://img.icons8.com/external-others-inmotus-design/67/null/external-Right-virtual-keyboard-others-inmotus-design-7.png" class="w-12"/></button>
+                </div>
+            </div>
+            <!-- right part -->
+            <div class="p-10 flex flex-row justify-end space-x-8 relative -mt-[480px] lg:top-10 -right-10 lg:-right-72">
+                <div class="bg-white relative flex-wrap rounded-3xl w-fit p-10 flex flex-col space-y-6 mb-14">
+                    <img src="./Images/whatsapplogo.jpg" alt="" class="w-10" loading="lazy">
+                    <h2 class="text-2xl lg:text-3xl lg:w-[450px] w-fit">New Ways To Enjoy WhatsApp Status</h2>
+                    <p class="lg:w-[380px] w-fit">Status is a popular way to share ephemeral updates with friends and close contacts on WhatsApp. They disappear in 24 hours and may include photos,...</p>
+                    <button class="px-5 py-3 border-black border rounded-full text-start w-fit">Read More</button>
+                </div>
+                <div class="bg-white relative flex-wrap rounded-3xl w-fit p-10 flex flex-col space-y-6 mb-12">
+                    <img src="./Images/whatsapplogo.jpg" alt="" class="w-10">
+                    <h2 class="text-2xl lg:text-3xl w-fit lg:w-[450px]">Connecting to WhatsApp by Proxy</h2>
+                    <p class="lg:w-[380px] w-fit">Happy New Year everyone who uses WhatsApp! We're mindful that just as we've celebrated the start to 2023 through texts or calls, there are...</p>
+                    <button class="px-5 py-3 border-black border rounded-full text-start w-fit">Read More</button>
+                </div>
+            </div>
+
+        </div>
+        </div>
+    </section>
+
+
+    <!-- footer -->
+    <footer class="bg-[#111B21]  max-w-[1500px] -z-20 -mt-[25px] p-10 w-full">
+        <div class="grid  grid-cols-2 gap-10 lg:grid-cols-5 place-content-between max-w-[1200px] mx-auto text-white pt-20">
+            <div class="lg:flex hidden flex-col space-y-32 items-center justify-center">
+                <img src="./Images/whatsappwhite.png" alt="" class="w-28">
+                <button class="bg-green-400 rounded-full flex items-center self-center px-8 py-4 space-x-3">
+                    <span class="text-black">
+                        Download
+                    </span>
+                    <span>
+                        <img src="./Images/download.png" alt="" class="w-4">
+                    </span>
+                </button>
+            </div>
+            <div class="flex flex-col space-y-4 font-[450] text-lg">
+                <a href="" class="font-normal text-xs pb-5">What we do </a>
+                <a href="" class="hover:underline underline-offset-2">Features</a>
+                <a href="" class="hover:underline underline-offset-2">Blog</a>
+                <a href="" class="hover:underline underline-offset-2">Stories</a>
+                <a href="" class="hover:underline underline-offset-2">For Business</a>
+            </div>
+            <div class="flex flex-col space-y-4 font-[450] text-lg">
+                <a href="" class="font-normal text-xs pb-5">What we are</a>
+                <a href="" class="hover:underline underline-offset-2">About us</a>
+                <a href="" class="hover:underline underline-offset-2">Careers</a>
+                <a href="" class="hover:underline underline-offset-2">Brand Center</a>
+                <a href="" class="hover:underline underline-offset-2">Privacy</a>
+            </div>
+            <div class="flex flex-col space-y-4 font-[450] text-lg">
+                <a href="" class="font-normal text-xs pb-5">Use WhatsApp</a>
+                <a href="" class="hover:underline underline-offset-2">Android</a>
+                <a href="" class="hover:underline underline-offset-2">iPhone</a>
+                <a href="" class="hover:underline underline-offset-2">Mac/PC</a>
+                <a href="" class="hover:underline underline-offset-2">WhatsApp Web</a>
+            </div>
+            <div class="flex flex-col space-y-4 font-[450] text-lg">
+                <a href="" class="font-normal text-xs pb-5">Need help?</a>
+                <a href="" class="hover:underline underline-offset-2">Contact Us</a>
+                <a href="" class="hover:underline underline-offset-2">Help Center</a>
+                <a href="" class="hover:underline underline-offset-2">Coronavirus</a>
+                <a href="" class="hover:underline underline-offset-2">Security Advisories</a>
+            </div>
+        </div>
+
+        <div class="bg-slate-500 relative h-[1px] w-[84%] mx-auto mt-16"></div>
+
+        <div class="flex flex-row text-white relative mx-auto w-[84%] mt-8 text-xs justify-between">
+            <div class="flex flex-col lg:flex-row space-x-5">
+                <a href="" class="font-medium ">2023 © WhatsApp LLC</a><a href="" class="font-medium ">Terms of Service</a>
+            </div>
+            <div>
+                <ul class="lg:flex hidden justify-between space-x-8 w-[250px]">
+                    <li class="bg-white rounded-full border cursor-pointer"><img src="./Images/twitter.png" alt="" srcset=""></li>
+                    <li class="bg-white rounded-full border cursor-pointer"><img src="./Images/youtube.png" alt="" srcset=""></li>
+                    <li class="bg-white rounded-full border cursor-pointer"><img src="./Images/instagram.png" alt="" srcset=""></li>
+                    <li class="bg-white rounded-full border cursor-pointer"><img src="./Images/instagram.png" alt=""></li>
+                </ul>
+            </div>
+            <div>
+                <button class="border-2 p-7 text-start py-3 rounded-full border-white flex flex-row items-center lg:space-x-20 space-x-7 w-fit">
+                    <span class="font-medium text-start text-base ">    
+                        English
+                    </span>
+                    <svg class="fill-current h-4 w-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"/> </svg>
+                </button>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
